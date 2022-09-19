@@ -20,11 +20,11 @@
           "email" => $user['email']
       ];
 
-      header('Location: ../../index.php');
+      header('Location: ./../index.php');
 
   } else {
       $_SESSION['message'] = 'Login və ya parol səhvdir';
-      header('Location: ../index.php');
+      header('Location: ./../index.php');
   }
 ?>
 

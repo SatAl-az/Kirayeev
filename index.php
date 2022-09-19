@@ -10,7 +10,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Burned&family=Russo+One&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-   <title>SatAl.az</title>
+   <title>KirayəEv.az</title>
 </head>
 <body>
    <header class="header">  
@@ -25,10 +25,10 @@
                </div>
                <div class="nav_right">
                   <div class="nav_right__link">
-                     <a href="">0556719508</a>
+                     <a href=""></a>
                   </div>
                   <div class="nav_right__link">
-                     <a href="">Yardim</a>
+                     <a href="">Yardım</a>
                   </div>
                   <div class="nav_right__link icon_nav">
                      <div class="hearth">♥</div>
@@ -45,7 +45,7 @@
       <div class="navbar__section">
          <div class="container">
             <div class="navbar__section__wrapper">
-               <div class="logolink"><a href="">SatAl.Az</a></div>
+               <div class="logolink"><a href="./index.php">KirayəEv.az</a></div>
                <div>
                   <div outline="none" class="dropdown">
                   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,7 +60,7 @@
                </div>
                <div>
                <form class="search__form" action="">
-                  <input type="search" name="" id="" placeholder="Əşya və ya xidmət axtarışı">
+                  <input type="search" name="" id="" placeholder="Kirayə mənzil axtarışı">
                   <div class="dropdown btn-secondary">
                      <select class="dropdown" name="" id="">
                         <option>Şəhər</option>
