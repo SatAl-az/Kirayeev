@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-<form  action="additem.php" method="post" enctype="multipart/form-data">
+<form  action="./additem.php" method="post" enctype="multipart/form-data">
      
       <label>Məhsulun adı</label>
       <input type="text" placeholder="Məsulun Adı"  name="Name">

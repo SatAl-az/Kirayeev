@@ -36,7 +36,7 @@
                   </div>
                   <div class="nav_right__link icon_nav">
                      <div class="icon"><img src="./assets/icons/images.png" alt=""></div>
-                     <a href="Signingin.php">Giriş</a>
+                     <a href="./Signingin.php">Giriş</a>
                   </div>
                </div>
             </div>
@@ -74,7 +74,7 @@
                   </div>
                </form>
             </div>
-               <div class="catalog__button"><button onclick="window.location.href='/Yeni Elan.php'" ><i class="fa fa-plus" aria-hidden="true"></i><a>Yeni elan</a> </button></div>
+               <div class="catalog__button"><button onclick="window.location.href='./Yeni Elan.php'" ><i class="fa fa-plus" aria-hidden="true"></i><a>Yeni elan</a> </button></div>
             </div>
          </div>
       </div>
@@ -82,36 +82,14 @@
    <section class="catalog">
      <div class="container">
          <div class="catalog__wrapper">
-            <a href="" class="catalog__item">
-               <div class="catalog__item__icon">
-                  <img src="./assets/images/house.png" alt="">
-               </div>
-               <div class="catalog__item__title">
-                  Ev və bağ üçün
-               </div>
-            </a>
-            <a href="" class="catalog__item">
-               <div class="catalog__item__icon">
-               <img src="./assets/images/traffic.png" alt="">
-               </div>
-               <div class="catalog__item__title">
-                  Nəqliyyat
-               </div>
-            </a>
-            <a href="" class="catalog__item">
-               <div class="catalog__item__icon">
-               <img src="./assets/images/device.png" alt="">
-               </div>
-               <div class="catalog__item__title">
-                  Elektronika
-               </div>
-            </a>
+                
+            
             <a href=""class="catalog__item">
                <div class="catalog__item__icon">
                <img src="./assets/images/building-11520.png" alt="">
                </div>
                <div class="catalog__item__title">
-                  Daşınmaz əmlak
+                  Bina Evi
                </div>
             </a>
             <a href="" class="catalog__item">
@@ -119,7 +97,7 @@
                <img src="./assets/images/businesss.png" alt="">
                </div>
                <div class="catalog__item__title">
-                  Xidmətlər və biznes
+                  Həyət Evi
                </div>
             </a>
             <a href="" class="catalog__item">
@@ -127,33 +105,12 @@
                   <img src="./assets/images/hobbies.png" alt="">
                </div>
                <div class="catalog__item__title">
-                  Hobbi və asudə
+                  Digər
                </div>
             </a>
-            <a href="" class="catalog__item">
-               <div class="catalog__item__icon">
-               <img src="./assets/images/child.png" alt="">
-               </div>
-               <div class="catalog__item__title">
-                  Uşaq aləmi
-               </div>
-            </a>
-            <a href="" class="catalog__item">
-               <div class="catalog__item__icon">
-                  <img src="./assets/images/pet.png" alt="">
-               </div>
-               <div class="catalog__item__title">
-                  Heyvanlar
-               </div>
-            </a>
-            <a href="" class="catalog__item">
-               <div class="catalog__item__icon">
-                  <img src="./assets/images/job.png" alt="">
-               </div>
-               <div class="catalog__item__title">
-                  İş elanları
-               </div>
-            </a>
+            
+          
+        
          </div>
      </div>
    </section>
@@ -163,11 +120,6 @@
 <head>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
-<input type="text" id="text1"/>
-<input type="button" id="btn" value="Button"/>
-<div id="div1">
-</div>
-
 
 
    

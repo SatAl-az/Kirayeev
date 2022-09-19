@@ -19,10 +19,10 @@ if(!empty($_SESSION['user']))
   (`Name`, `Price`, `Description`, `PhoneNumber`, `Photo`) 
   VALUES ( '$Name', '$Price', '$Description', '$Number', '$Photo')");
   $_SESSION['message'] = 'Elan Yerləşdirildi';
-  header('Location: /index.php'); 
+  header('Location: ./index.php'); 
 }
 else{
-  header('Location: /Signingin.php'); 
+  header('Location:./Signingin.php'); 
 }
 
 ?>
