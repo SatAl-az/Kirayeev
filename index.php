@@ -35,8 +35,18 @@
                      <a href="">Seçilmişlər</a>
                   </div>
                   <div class="nav_right__link icon_nav">
-                     <div class="icon"><img src="./assets/icons/images.png" alt=""></div>
-                     <a href="./Signingin.php">Giriş</a>
+                  <?php 
+                        if(isset($_SESSION['user']) == null) {
+                        echo "<div class=\"icon\"><img src=\"./assets/icons/images.png\" alt=\"\"></div>";
+                        echo "<a href=\"Signingin.php\">Giriş</a>";
+                        } else {
+                        session_start();
+                        $avatar = $_SESSION['user']['avatar'];
+                        echo "<div class=\"icon\"><img src=\"$avatar\" alt=\"\"></div>";
+                        echo " <a href=\"vendor/logout.php\">Çıxış</a>";
+                         }
+                     ?>
+                     
                   </div>
                </div>
             </div>
@@ -45,7 +55,7 @@
       <div class="navbar__section">
          <div class="container">
             <div class="navbar__section__wrapper">
-               <div class="logolink"><a href="./index.php">KirayəEv.az</a></div>
+               <div class="logolink"><a href="./index.php">Kirayələ.az</a></div>
                <div>
                   <div outline="none" class="dropdown">
                   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">

@@ -12,7 +12,10 @@
   $Location = $_POST["menu.value"];
   $Photo = 'uploads/' . time() .$_FILES['Photo']['Name'];
 
-if(!empty($_SESSION['user']))
+if(isset($_SESSION['user']) == null) {
+  header('Location:./Signingin.php'); 
+}
+else
 { 
   session_start();
   mysqli_query($connect, "INSERT INTO `sellinglist` 
@@ -20,9 +23,6 @@ if(!empty($_SESSION['user']))
   VALUES ( '$Name', '$Price', '$Description', '$Number', '$Photo')");
   $_SESSION['message'] = 'Elan Yerləşdirildi';
   header('Location: ./index.php'); 
-}
-else{
-  header('Location:./Signingin.php'); 
 }
 
 ?>
