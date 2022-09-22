@@ -1,3 +1,6 @@
+<?php
+   require_once('./vendor/connect.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -118,6 +121,18 @@
                   Digər
                </div>
             </a>
+          <div class="announcements__vip">
+         
+            <div class="announcements__wrapper">
+               <?php
+                  $goodFetch = $dbh->prepare("SELECT * FROM sellinglist");
+                  $goodFetch->execute();
+                  
+               ?> 
+                  <div class="announcements__item">
+                     <img src="<?='uploads/'.$goodFetchs["img"]?>" alt="">
+                     <div class="add__favorites"><i class="fa-regular  fa-heart" aria-hidden="true"></i></div>
+                     
             
           
         
