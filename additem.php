@@ -1,25 +1,26 @@
 <?php
-  
+  session_start();
   $connect = mysqli_connect("localhost", "root", "", "userdata");
   if(!$connect) {
      die("Error connect to DATA BASE");
   }  
 
-  $name = $_POST["Name"];
+  $Name = $_POST["Name"];
   $Price = $_POST["Price"];
   $Description = $_POST["Description"];
   $Number = $_POST["PhoneNumber"];
-  $Location = $_POST["menu.value"];
-  $Photo = 'uploads/' . time() .$_FILES['Photo']['Name'];
 
+  $Photo = 'uploads/' . time() .$_FILES['Photo']['tmp_name'];
+
+  
 if(isset($_SESSION['user']) == null) {
   header('Location:./Signingin.php'); 
 }
 else
 { 
-  session_start();
+
   mysqli_query($connect, "INSERT INTO `sellinglist` 
-  (`Name`, `Price`, `Description`, `PhoneNumber`, `Photo`) 
+  (`Name`, `Price`, `Description`, `PhoneNumberOfSeller`, `Photo`) 
   VALUES ( '$Name', '$Price', '$Description', '$Number', '$Photo')");
   $_SESSION['message'] = 'Elan Yerləşdirildi';
   header('Location: ./index.php'); 
